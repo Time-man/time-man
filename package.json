@@ -1,6 +1,6 @@
 {
   "name": "time-man",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple JavaScript Library to Manipulate Time",
   "main": "index.js",
   "scripts": {
