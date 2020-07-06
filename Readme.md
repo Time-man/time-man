@@ -1,5 +1,5 @@
-# Time-man JS 
-### A Simple JavaScript Library to manage "Time". 
+# Time-man JS
+### A Simple JavaScript Library to manage "Time".
 
 ----
 ## Installation
@@ -8,7 +8,7 @@
 ```bash
 $npm install time-man
 ```
-and then 
+and then
 
 ```js
 const Time = require('time-man');
@@ -19,11 +19,23 @@ const Time = require('time-man');
 ```html
 <script src="dist/time-man.min.js"></script>
 
-<!-- or ---->
+<!-- or -->
 
-<script src="dist/time-man.js"><script>
+<script src="dist/time-man.js"></script>
 
 ```
+
+#### 3. CDN
+
+```html
+<script src="https://unpkg.com/time-man@1.0,0/dist/time-man.min.js"></script>
+
+<!-- or -->
+
+<script src="https://unpkg.com/time-man@1.0,0/dist/time-man.js"></script>
+
+```
+
 
 ----
 ## Usage
@@ -56,7 +68,7 @@ const object = new Time('23:56','H:i');
 
 ```object.logTime()```
 
-   
+
 
 ----
 ## Object Methods[object.Method()]
@@ -81,7 +93,7 @@ string averageTime([Array of Times) | Returns average of Time.
 object TimeSlicer([from time][to time][per Slot time]) | Returns an object of slotted Time.
 string UnixTimeStamp() | get the current Unix Time Stamp
 string CurrentDate() | get the current Date
-string TimeStamp() | get SQL friendly TimeStamp eg 2020-12-12 23:23:23 
+string TimeStamp() | get SQL friendly TimeStamp eg 2020-12-12 23:23:23
 string TimeZone() | get Current TimeZone(same as getTimeZone)
 
 
@@ -91,5 +103,5 @@ string TimeZone() | get Current TimeZone(same as getTimeZone)
 Author [Jayesh Waghmare](https://github.com/jayesh-w)
 
 ----
-## License 
+## License
 [MIT](LICENSE)
