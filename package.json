@@ -9,12 +9,13 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jayesh-w/time-man.git"
+    "url": "git+https://github.com/Time-man/time-man.git"
   },
   "author": "Jayesh Waghmare",
-  "license": "ISC",
+  "email": "jayesh.waghmare30@gmail.com",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jayesh-w/time-man/issues"
+    "url": "https://github.com/Time-man/time-man/issues"
   },
-  "homepage": "https://github.com/jayesh-w/time-man#readme"
+  "homepage": "https://github.com/Time-man/time-man#readme"
 }
