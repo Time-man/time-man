@@ -28,11 +28,11 @@ const Time = require('time-man');
 #### 3. CDN
 
 ```html
-<script src="https://unpkg.com/time-man@1.0,0/dist/time-man.min.js"></script>
+<script src="https://unpkg.com/time-man@1.0.0/dist/time-man.min.js"></script>
 
 <!-- or -->
 
-<script src="https://unpkg.com/time-man@1.0,0/dist/time-man.js"></script>
+<script src="https://unpkg.com/time-man@1.0.0/dist/time-man.js"></script>
 
 ```
 
